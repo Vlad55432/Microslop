@@ -17,6 +17,16 @@ export default defineContentScript({
                 to: "Slopya Narayana Nuttela",
                 ignorePrefix: ["@", "#"],
             },
+            {
+                from: "Copilot",
+                to: "Slopilot",
+                ignorePrefix: ["@", "#"],
+            },
+            {
+                from: "artificial intelligence",
+                to: "Actually Indians",
+                ignorePrefix: ["@", "#"],
+            },
         ]);
     },
 });

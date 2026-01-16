@@ -2,8 +2,12 @@ import { defineConfig } from "wxt";
 
 // See https://wxt.dev/api/config.html
 export default defineConfig({
+    zip: {
+        name: "microslop",
+        excludeSources: ["debub.log", "bun.lock"],
+    },
     manifest: {
-        version: "0.0.1",
+        version: "0.0.2",
         name: "Microslop",
         short_name: "Microslop",
         description: "An extension that converts Microsoft to Microslop",

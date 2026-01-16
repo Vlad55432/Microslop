@@ -18,11 +18,15 @@ here are some images if you like
 ![all the microslops; look at em](/images/screenshots/firefox/1.png)
 ![](/images/screenshots/firefox/2.png)
 ![this is soo funny 😭](/images/screenshots/firefox/3.png)
+![](/images/screenshots/firefox/4.png)
+![](/images/screenshots/firefox/5.png)
 
 ## chrome(coming soon)
 
 ![](/images/screenshots/chrome/1.png)
 ![](/images/screenshots/chrome/2.png)
 ![](/images/screenshots/chrome/3.png)
+![](/images/screenshots/chrome/4.png)
+![](/images/screenshots/chrome/5.png)
 
 also what's your thoughts on the logo does it look good?
