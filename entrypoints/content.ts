@@ -73,13 +73,6 @@ function watchAndReplace(root: Node, replaces: ReplacerType[]) {
 
         if (!quickCheckPattern.test(node.nodeValue)) return;
 
-        if (
-            /\b((https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*))\b/gi.test(
-                node.nodeValue,
-            )
-        )
-            return;
-
         let text = node.nodeValue;
         let changed = false;
 
@@ -88,6 +81,15 @@ function watchAndReplace(root: Node, replaces: ReplacerType[]) {
                 if (node.nodeValue === replacer.to) return match;
 
                 const prevText = text[offset - 1];
+                const afterText = text[offset + match.length];
+
+                if (
+                    afterText === "." ||
+                    (prevText === "." && afterText === ".")
+                ) {
+                    return match;
+                }
+
                 if (
                     replacer.ignore &&
                     prevText &&

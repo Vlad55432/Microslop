@@ -30,9 +30,52 @@ export const replacers = [
         ignorePrefix: ["@", "#"],
         enabled: true,
     },
+
+    // extras
+
     {
         from: "Copilot",
         to: "Slopilot",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "Windows",
+        to: "Bindoj",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "Xbox",
+        to: "GreedYbox",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "Game Pass",
+        to: "Gay Pass",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "OneDrive",
+        to: "CloudTumor",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "GitHub",
+        to: "ShitHub",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "Azure",
+        to: "Assure",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "Generative AI",
+        to: "Degenerative AI",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "GenAI",
+        to: "DegenAI",
         ignorePrefix: ["@", "#"],
     },
 ] satisfies ReplacerType[];
