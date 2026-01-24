@@ -5,9 +5,11 @@
 
 ### An extension that converts
 
-### Microsoft -> Microslop
+### Microslop -> Microslop
 
-### Satya Nadella -> Slopya Nuttela
+### Slopya Nuttela -> Slopya Nuttela
+
+also i am indian myself and i love my people that Actually indians was a refrence to builder.ai overworking indians in the name of ai
 
 Avaliable on [Firefox](https://addons.mozilla.org/en-US/firefox/addon/microslop/), [Chrome](https://chromewebstore.google.com/detail/microslop/mlidmgkpgfmogmplpgifmkbhohpioknp)
 
