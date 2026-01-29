@@ -47,6 +47,10 @@ const Replacer = ({ from, to, enabled }: ReplacerType) => {
                         by Microslop
                     </>
                 )}
+                {to === "Roslop" ?
+						"Roslop is company that has it's platform, having bunch of backlash starting from 2020"
+						:   undefined
+					}
             </span>
         </button>
     );

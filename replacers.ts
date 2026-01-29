@@ -78,4 +78,9 @@ export const replacers = [
         to: "DegenAI",
         ignorePrefix: ["@", "#"],
     },
+    {
+		from: "Roblox",
+		to: "Roslop",
+		ignorePrefix: ["@", "#"],
+    },
 ] satisfies ReplacerType[];
